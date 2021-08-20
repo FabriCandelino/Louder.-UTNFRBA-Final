@@ -13,9 +13,9 @@ app.get('', (req, res) => {
     })
 });
 
-app.get('/artists', (req,res) => {
-    res.render('pages/artists', {
-      title: 'Louder. | Artists'
+app.get('/artistname', (req,res) => {
+    res.render('pages/artist', {
+      title: 'ArtistName on Louder.'
     });
   });
 

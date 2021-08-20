@@ -53,6 +53,7 @@ a {
     color: var(--main-white); 
     cursor: pointer;
     font-size: 0px;
+    border-radius: 15px;
     transition: linear 0.08s;
     transition-property: background-color, color;
   }
@@ -67,7 +68,7 @@ h1 {
 }
 
 header {
-    width: 100%;
+    width: 98.428%;
     position: fixed;
     z-index: 50;
 }
@@ -129,7 +130,7 @@ nav .container-gral {
 }
 
 .srch-btn {
-    padding: 5px 15px;
+    padding: 5px 25px;
     height: 35px;
     background-color: var(--main-red);
     color: var(--main-white);
@@ -188,19 +189,26 @@ nav .container-gral {
     font-size: 20px;
 }
 
+.mobile-search {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+}
+
 .mobile-nav-cont .srch-text {
-    margin-top: 15px;
     padding: 9px;
-    width: 100%;
+    width: 65%;
     height: 45px;
     font-size: 15.5px;
 }
 
 .mobile-nav-cont .srch-btn {
     padding: 2.5px 10px;
-    height: 35px;
-    width: 40%;
-    margin-bottom: 25px;
+    height: 45px;
+    width: 35%;
 }
 
 .mobile-nav-cont hr {
@@ -249,22 +257,6 @@ nav .container-gral {
     color: var(--main-white);
     font-weight: 100;
     width: 90%;
-}
-
-.hero-btn {
-    width: 175px;
-    height: 35px;
-    margin-top: 5px;
-    border: 2px solid var(--main-white);
-    font-size: 18px;
-    font-family: var(--alt-font);
-    align-items: center;
-    text-align: center;
-    transition: background-color 0.08s linear;
-}
-
-.hero-btn:hover {
-    background-color: var(--main-red);
 }
 
 .auto-scroll {
@@ -342,7 +334,7 @@ nav .container-gral {
     box-shadow: 0px 0px 15px 1px var(--main-white);
 }
 
-.icon-bkg {
+.icon-bkg-c {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -351,7 +343,7 @@ nav .container-gral {
     transition: background linear 0.08s;
 }
 
-.icon-bkg:hover {
+.icon-bkg-c:hover {
     background: var(--main-red);
 }
 
@@ -519,10 +511,11 @@ footer hr {
 }
 
 .footer-email-btn {
-    padding: 5px 15px;
+    padding: 5px 25px;
     height: 35px;
     background-color: var(--main-red);
     color: var(--main-white);
+    text-transform: uppercase;
     border: none;
     transition: background-color 0.08s linear;
 }
@@ -662,11 +655,6 @@ footer hr {
         justify-content: space-between;
     }
 
-    .mobile-nav-cont .srch-btn {
-        width: 100%;
-        height: 75px;
-    }
-
     .hero-left {
         width: 100%;
         height: 100%;
@@ -753,11 +741,11 @@ footer hr {
         display: flex;
     }
 
-    .icon-bkg {
+    .icon-bkg-c {
         margin: 15px 15px 15px 0;
         width: 45px;
     }
-    .icon-bkg img {
+    .icon-bkg-c img {
         width: 45px;
         height: 45px;
     }
