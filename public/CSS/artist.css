@@ -6,6 +6,9 @@
     --alt-black: #040A07;
     --main-white: #e5e5e5;
     --alt-white: #e5e5e5c0;
+    --g-electronic-color: #00FF94;
+    --g-techno-color: #E64CFF;
+    --g-house-color: #DBFF00;
     --main-font: 'Alfa Slab One', sans-serif;
     --alt-font: 'Catamaran', sans-serif;
 }
@@ -27,6 +30,7 @@ body {
     background-color: var(--main-black);
     overflow-x: hidden;
     scroll-behavior: smooth;
+    color: var(--main-white);
 }
 
 ul {
@@ -227,13 +231,60 @@ nav .container-gral {
 
 }
 
+/*  */
+
 
 .artist-section {
-    margin: 75px 0;
-    border: 5px solid black;
+    margin: 125px 0;
+    display: flex;
 }
 
+.artist-pg-img {
+    width: 350px;
+    border: 2.5px solid var(--main-white);
+}
 
+.artist-info {
+    margin-left: 25px;
+}
+
+.artist-info h2 {
+    font-weight: 100;
+}
+
+.artist-info p {
+    font-family: var(--alt-font);
+}
+
+.artist-categories {
+    display: flex;
+    font-family: var(--alt-font);
+    margin: 10px 0 15px 0;
+}
+
+.g {
+    width: 95px;
+    text-align: center;
+    margin-right: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--alt-black);
+    text-decoration: underline;
+}
+
+.g-electronic {
+    background-color: var(--g-electronic-color);
+}
+
+.g-techno {
+    background-color: var(--g-techno-color);
+}
+
+.g-house {
+    background-color: var(--g-house-color);
+}
+
+/*  */
 
 footer {
     font-family: var(--alt-font);
