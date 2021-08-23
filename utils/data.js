@@ -1,21 +1,20 @@
-const request = require('postman-request');
+const request = require('postman-request')
 
 const getData = (callback) => {
-    request('./', (err, res, body) => {
-        if(err) {
-            return callback(err, undefined);
+    request('./utils/data.json'), (error, res, body) => {
+        if(error){
+          console.log('Error', error)  
+          return callback(error, undefined);
         }
-        if(res) {
-            if(body) {
-                const JSONBody = JSON.parse(body);
-                return callback(undefined, JSONBody);
-            } else {
-                return callback('Users not found', undefined);
+        if (res){
+            if(body){
+               return callback(undefined, body);
             }
+            callback("Data not found.", undefined);
         }
-    });
+    };
 }
 
 module.exports = {
-    getUsers
+    getData
 }
