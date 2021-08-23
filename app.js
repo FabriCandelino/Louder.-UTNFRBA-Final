@@ -26,6 +26,12 @@ app.get('/artistname', (req,res) => {
     });
   });
 
+  app.get('/log-in', (req,res) => {
+    res.render('pages/log-in', {
+      title: 'Log In'
+    });
+  });
+
 app.listen(3000, () => {
     console.log('Running Port 3000');
 });
