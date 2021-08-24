@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/meta') %>
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-arrow-up-square-fill" viewBox="0 0 16 16">
+            <path d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0z"/>
+          </svg>
+    </button>
+    <%- include('../partials/header') %>
+    <div class="bkg-linear">
+        <div class="container-gral">
+            <section class="artist-section">
+                <img class="artist-pg-img" src="img/artists/folamour.jpeg" alt="Folamour">
+                <div class="artist-info">
+                    <h2>Folamour</h2>
+                    <ul class="artist-categories">
+                        <li><h3 class="g main-g">Disco</h3></li>
+                        <li><h3 class="g second-g">H. Groove</h3></li>
+                        <li><h3 class="g third-g">Club House</h3></li>
+                    </ul>
+                    <p class="artist-description">French DJ/producer Bruno Boumendil (aka Folamour) takes the bright aesthetics of disco and adds a significant amount of house groove, making for laid-back but propulsive club tracks. Originally hailing from Lyon, Boumendil quickly found his feet as an upcoming talent, releasing his first mixtape, 2015's Chapeau Rouge, on Fauxpas Music. From there he went from strength to strength, establishing himself outside of France for his skills as a DJ.</p>
+                </div>
+            </section>
+            <section class="artist-upld">
+                <h3>Artist Uploads</h3>
+                <div class="card-section">
+                    <a class="card" href="#">
+                        <img src="Img/albums-ep's/folamour/the-journey.jpg" alt="The Journey">
+                        <div class="upld-info">
+                            <h4>The Journey</h4>
+                            <h5 class="upld-date">Record - 2021</h5>
+                        </div>
+                    </a>
+                    <a class="card" href="#">
+                        <img src="Img/albums-ep's/folamour/ordinary-drugs.jpg" alt="Ordinary Drugs">
+                        <div class="upld-info">
+                            <h4>Ordinary Drugs</h4>
+                            <h5 class="upld-date">EP - 2019</h5>
+                        </div>
+                    </a>
+                    <a class="card" href="#">
+                        <img src="Img/albums-ep's/folamour/club-degli-esploratori.jpg" alt="Club Degli Esploratori">
+                        <div class="upld-info">
+                            <h4>Club Degli Esploratori</h4>
+                            <h5 class="upld-date">EP - 2018</h5>
+                        </div>
+                    </a>
+                    <a class="card" href="#">
+                        <img src="Img/albums-ep's/folamour/umami.jpg" alt="Umami">
+                        <div class="upld-info">
+                            <h4>Umami</h4>
+                            <h5 class="upld-date">EP - 2017</h5>
+                        </div>
+                    </a>
+                    <a class="card" href="#">
+                        <img src="Img/albums-ep's/folamour/chapeau-rouge.jpg" alt="Chapeau Rouge">
+                        <div class="upld-info">
+                            <h4>Chapeau Rouge</h4>
+                            <h5 class="upld-date">EP - 2015</h5>
+                        </div>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </div>
+    <%- include('../partials/footer') %>
+    <script src="JS/nav-mobile-toggle.js"></script>
+    <script src="JS/scroll.js"></script>
+</body>
+</html>

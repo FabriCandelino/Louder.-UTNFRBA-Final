@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/meta') %>
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-arrow-up-square-fill" viewBox="0 0 16 16">
+            <path d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0z"/>
+          </svg>
+    </button>
+    <%- include('../partials/header') %>
+    <div class="bkg-linear">
+        <div class="container-gral">
+            <section class="artist-section">
+                <img class="artist-pg-img" src="img/artists/tchami.jpg" alt="Artist 1">
+                <div class="artist-info">
+                    <h2>Malaa</h2>
+                    <ul class="artist-categories">
+                        <li><h3 class="g main-g">House</h3></li>
+                        <li><h3 class="g second-g">Future H.</h3></li>
+                        <li><h3 class="g third-g">Bass House</h3></li>
+                    </ul>
+                    <p class="artist-description">Martin Joseph Léonard Bresso, better known by his stage name Tchami, is a French record producer and DJ from Paris. A founding member of the Pardon My French collective, he is best known for his solo work and regarded as a pioneer of the future house genre alongside Dutch DJs Oliver Heldens and Don Diablo</p>
+                </div>
+            </section>
+            <section class="artist-upld">
+                <h3>Artist Uploads</h3>
+                <div class="card-section">
+                    <a class="card" href="#">
+                        <img src="Img/albums-ep's/tchami/year-0.jpg" alt="Year 0">
+                        <div class="upld-info">
+                            <h4>Year 0</h4>
+                            <h5 class="upld-date">EP - 2020</h5>
+                        </div>
+                    </a>
+                    <a class="card" href="#">
+                        <img src="Img/albums-ep's/tchami/no-redemption.jpg" alt="No Redemption">
+                        <div class="upld-info">
+                            <h4>No Redemption</h4>
+                            <h5 class="upld-date">EP - 2018</h5>
+                        </div>
+                    </a>
+                    <a class="card" href="#">
+                        <img src="Img/albums-ep's/tchami/revelations.jpg" alt="Revelations">
+                        <div class="upld-info">
+                            <h4>Revelations</h4>
+                            <h5 class="upld-date">EP - 2017</h5>
+                        </div>
+                    </a>
+                    <a class="card" href="#">
+                        <img src="Img/albums-ep's/tchami/after-life.jpg" alt="After Life">
+                        <div class="upld-info">
+                            <h4>After Life</h4>
+                            <h5 class="upld-date">EP - 2015</h5>
+                        </div>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </div>
+    <%- include('../partials/footer') %>
+    <script src="JS/nav-mobile-toggle.js"></script>
+    <script src="JS/scroll.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/meta') %>
+</head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-arrow-up-square-fill" viewBox="0 0 16 16">
+            <path d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0z"/>
+          </svg>
+    </button>
+    <%- include('../partials/header') %>
+    <div class="bkg-linear">
+        <div class="container-gral">
+            <section class="artist-section">
+                <img class="artist-pg-img" src="Img/artists/peggy-gou.jpg" alt="Peggy Gou">
+                <div class="artist-info">
+                    <h2>Peggy Gou</h2>
+                    <ul class="artist-categories">
+                        <li><h3 class="g main-g">Electronic</h3></li>
+                        <li><h3 class="g second-g">Deep House</h3></li>
+                        <li><h3 class="g third-g">Dance</h3></li>
+                    </ul>
+                    <p class="artist-description">Peggy Gou is a Berlin-based South Korean DJ. She have released a DJ-Kicks compilation, DJ-Kicks: Peggy Gou, on !k7 Records.</p>
+                </div>
+            </section>
+            <section class="artist-upld">
+                <h3>Artist Uploads</h3>
+                <div class="card-section">
+                    <a class="card" href="#">
+                        <img src="Img/albums-ep's/peggy-gou/moment.jpg" alt="Moment">
+                        <div class="upld-info">
+                            <h4>Moment</h4>
+                            <h5 class="upld-date">EP - 2019</h5>
+                        </div>
+                    </a>
+                    <a class="card" href="#">
+                        <img src="Img/albums-ep's/peggy-gou/seek-for-maktoop.jpg" alt="Seek For Maktoop">
+                        <div class="upld-info">
+                            <h4>Seek For Maktoop</h4>
+                            <h5 class="upld-date">EP - 2016</h5>
+                        </div>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </div>
+    <%- include('../partials/footer') %>
+    <script src="JS/nav-mobile-toggle.js"></script>
+    <script src="JS/scroll.js"></script>
+</body>
+</html>

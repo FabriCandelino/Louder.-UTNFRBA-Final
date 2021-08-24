@@ -54,7 +54,13 @@ The Louder.'s Team told me that they're interested on having a diferent and non-
 
 They contacted a professional researcher to put the best info on the web and get the 1st place on Google´s search results. Then I managed to put that info on the site and make the most simple and understandable design for the public eye.
 
+## Future Chages
 
+*The sign up and log in pages do work, but register forms are still on development due to problems with databases.*
+
+*Also with the footer email button.*
+
+*Databases will be incorporated on future updates.*
 
 ## Credits
 
